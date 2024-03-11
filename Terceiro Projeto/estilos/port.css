@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root
+/* variaveis */
+{
+    --cor-primaria: #000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria:#22d4fd;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-primaria);
+color: white;
+
+}
+
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+
+
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+gap: 82px ;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 1.5rem;
+font-family: "Josefin Sans", sans-serif;
+ 
+ 
+}
+.apresentacao__conteudo__texto{
+    font-size:1.5rem;
+  
+}
+
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 50%;
+}
+
+.apresentacao__links_link{
+border:2px solid #22d4fd;
+width: 280px;
+text-align: center;
+font-size:1.5rem;
+border-radius: 8px;
+padding:21.5px 0;
+text-decoration: none;
+color: rgb(245, 245, 245);
+ font-family: "Josefin Sans", sans-serif;
+font-weight: 400;
+}
+
+.apresentacao__links__subtitulo{
+font-size: 1.5rem;
+font-family: cursive;
+}
+
+.apresentacao__links_link i{
+    color:  #22d4fd;
+    letter-spacing: 5px;
+}
+
+.apresentacao__links a:hover{
+    color: #22d4fd;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+img{
+    border-radius: 20px;
+    border: 2px solid #22d4fd ;
+    width: 50%;
+}
+
+
+
+.rodape{
+    padding: 24px;
+    text-align: center;
+    background-color: #22d4fd;
+    color: black;
+
+    font-size:1.5rem;
+   font-weight: 400;
+}
+
+@media (max-width:1200px){
+      .apresentacao{
+        flex-direction: column-reverse;
+      }
+}

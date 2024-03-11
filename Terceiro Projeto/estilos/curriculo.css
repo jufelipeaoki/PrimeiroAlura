@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links{
+    font-size: 24px;
+    color: aqua;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.corpo{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 5% 10%;
+    justify-content: space-around;
+}
+
+.corpo__curriculo{
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo{
+    font-size: 30px;
+    color: #22d4fd;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+li{
+    color: #22d4fd;
+}
+
+ .links{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+
+}
+.links:hover{
+    color:#22d4fd;
+}
+
+img{
+    border-radius: 20px;
+    border: 2px solid #22d4fd ;
+}
+
+
+
+
+
+.rodape{
+    padding: 24px;
+    text-align: center;
+    background-color: #22d4fd;
+    color: black;
+
+    font-size: 24px;
+   font-weight: 400;
+}
